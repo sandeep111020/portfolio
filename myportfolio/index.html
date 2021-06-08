@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="nav center">
+        <p class="logo">LOGO</p>
+        <input type="checkbox" name="" class="checkBtn"/>
+        <ol class="center">
+            <a href="#"><li>About</li></a>
+            <a href="#bottomedu"><li>Education</li></a>
+            <a href="#"><li>Experience</li></a>
+            <a href="#"><li>Projects</li></a>
+            <a href="#bottom"><li>Contact</li></a>
+        </ol>
+    </header>
+   
+    <section class="main">
+        <div class="box">
+            <h1>Sandeep Kumar</h1>
+            <p>Android Developer , UI/UX & Data Scientist</p>
+            <button class="btn">About</button>
+        </div>
+        <img src="profile.jpg" alt="">
+    </section>
+    <!-- about -->
+    <div class="about center">
+        <div class="box_wrap">
+            <p class="heading">About</p>
+            <p class="text">Hello! My name is Sandeep Kumar, and I'm </p>
+            <h3>MAD</h3> 
+            <p class="text">(Machine Learning , App Dev & Data Science Enthusiast). I have a diverse set of skills in Android, Data Science, ML, AI & NLP.</p>
+        </div>
+        <div class="box_wrap"> 
+            <p class="heading">Skills</p>
+            <div class="skills_box">
+                <i class="fab fa-html5 fa-3x" ></i>
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <i class="fab fa-js fa-3x"></i>
+                <i class="fab fa-linux fa-3x" ></i>
+                <i class="fab fa-android fa-3x" ></i>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- education -->
+    
+    <div class="education center">
+        <div id="bottomedu">
+        <div class="left_box">
+            <h1 class="heading">Education</h1>
+            <div class="container">
+                <h3>Andhra University</h3>
+                <p>Computer science</p>
+                <small>July 2018-2022</small>
+            </div>
+         
+        </div>
+        <!--<div class="right_box">
+            <img src="university.jpg" alt="">
+        </div>-->
+    </div>
+    </div>
+
+    <div class="contact center">
+        <div id="bottom">
+        <div class="left_box">
+            <h1 class="heading">Contact</h1>
+            <div class="skills_box">
+                <i class="fab fa-github fa-3x" onclick="mygit()"></i>
+                <i class="fab fa-instagram fa-3x" onclick="myinstra()"></i>
+                <i class="fab fa-linkedin fa-3x" onclick="mylin()"></i>
+               
+            </div>
+         
+        </div>
+        <!--<div class="right_box">
+            <img src="university.jpg" alt="">
+        </div>-->
+    </div>
+    </div>
+    <script>
+        function mygit() {
+          window.open("https://github.com/sandeep111020");
+        }
+        function myinstra() {
+          window.open("https://www.instagram.com/sandeep__sandy__us/");
+        }
+        function mylin() {
+          window.open("https://www.linkedin.com/in/sandeep-kumar-3183461b8");
+        }
+        </script>
+</body>
+</html>
